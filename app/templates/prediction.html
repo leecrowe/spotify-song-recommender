@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Paradigm Shift by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">				
+				<section></section>
+			<!-- First Section -->
+				<section id="first">
+					<header>		
+						<h2>Get the songs we recommend</h2>
+					</header>
+					<a href="/" class="button">Home</a>
+					
+					<div class="content">
+						<form action="/prediction" method="POST">
+							<div class="fields">
+								<div class="field half">
+									<input type="text" name="name" id="name" placeholder="Song name" />
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Get Songs" class="primary" /></li>
+							</ul>
+						</form>
+						
+						
+						<h3>YOUR RECOMMENDED SONGS</h3>
+						{% for song in prediction%}
+						<p>{{ song }}</p>
+						{% endfor %}
+	
+					</div>
+				</section>
+
+
+			<!-- Footer -->
+				
+
+			<!-- Copyright -->
+				<div class="copyright">&copy; Ft-Spotify-24 June 2021. Developed by Lee Rowe</a>.</div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

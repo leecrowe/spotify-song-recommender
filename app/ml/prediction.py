@@ -35,7 +35,7 @@ def song_recommend(track):
         for i in neigh_index[0][1:]:
             song_list.append(f"{spotify['track_name'][i]} by {spotify['track_artist'][i]}")
     else:
-        song_list = [f'There is no song with that name in our database or you might misspell it!!']
+        song_list = [f"There isn't a song by that name in the database, please make sure you spelled it correctly!"]
 
     return song_list
 

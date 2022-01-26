@@ -4,7 +4,7 @@
 
 Spotify Song Recommender is an `<APP>` that allows an `<Songs lover>` to quickly get the most `<Similar songs>` base on their favorite song.
 
-[Get Your Recommended Songs]https://spotify-song-suggestions.herokuapp.com/)
+[Get Your Recommended Songs](https://spotify-song-suggestions.herokuapp.com/)
 
 
 This web app is built on Flask. The app uses Machine Learning to generate a prediction.

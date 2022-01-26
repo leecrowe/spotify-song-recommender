@@ -41,7 +41,7 @@ Go to `localhost:8000` in your browser.
 ## Contributors
 
 
-* [@Lee Rowe](https://github.com/leecrowe)
+[@Lee Rowe](https://github.com/leecrowe)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

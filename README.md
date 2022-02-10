@@ -12,12 +12,6 @@ This web app is built on Flask. The app uses Machine Learning to generate a pred
 ## Duplicate the project
 You can clone this project and try yourself.
 
-Clone the repo
-```
-git clone https://github.com/FT-Spotify-04/Spotify-Recommendation.git
-
-cd YOUR-REPO-NAME
-```
 
 You can use either pipenv using Pipfile 
 ```
